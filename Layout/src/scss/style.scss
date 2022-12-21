@@ -1,0 +1,25 @@
+// cria o tema
+$my-color-red: #dc2f2f;
+$my-color-red-dark: #a92520;
+$my-color-purple:#432364;
+$my-color-purple-dark: #20053B;
+$my-color-black: #000000;
+$my-color-white: #fff;
+$my-color-grey: #e4e6ef;
+
+$theme-colors:(
+    "red":$my-color-red,
+    "red-dark":$my-color-red-dark,
+    "purple":$my-color-purple,
+    "purple-dark":$my-color-purple-dark,
+    "black":$my-color-black,
+    "white":$my-color-white,
+    "grey":$my-color-grey,
+);
+
+// classes personalisadas 
+$link-color:$my-color-red;
+// $body-bg:$my-color-black;
+
+//importa o bootstrap 
+@import "node_modules/bootstrap/scss/bootstrap";
